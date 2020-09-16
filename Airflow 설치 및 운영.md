@@ -201,13 +201,12 @@ airflow 를 실행하기 위해서는 웹 서버를 띄워야 한다. 웹 서버
 `http://<ip>:<port>/admin/`
 <br>
 
-![image](uploads/82be3ad329dedd9eddc762e1ceb553dd/image.png)
 
 <br>
 만약 DAG를 만들었다면, 해당 페이지에서 DAG를 off에서 on으로 바꿔준다.
 <br>
 
-![image](uploads/be6968c7bb2af23a5916ef2b2ce16aa6/image.png)
+
 <br>
 graph View를 통해 현재 Operator들의 목록을 볼 수 있다.
 
@@ -231,7 +230,7 @@ Airflow와 PostgreSQL이 서로 다른 컨테이너에 존재할 경우, 몇 가
 `$ vi example.py`
 <br>
 에디터에는 다음과 같은 내용을 적는다.<br>
-![image](uploads/7aba96ef7b202e24e9d49aabffa20415/image.png)
+
 
 ```python 
 
